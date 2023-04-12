@@ -1,3 +1,44 @@
-header {
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho {
     background-color: #1C315E;
+    display: flex;
+    justify-content: space-around;
+}
+.cabeçalho-itens {
+font-size: 36px;
+margin: 5px;
+display: inline-block;
+color: #FFFFFF;
+}
+.cabeçalho-lista {
+    font-size: 36px;
+margin: 5px;
+display: inline-block;
+color: #FFFFFF;
+}
+.escola {
+    background-color: #227C70;
+    width: 1300px;
+    height: 300px;
+}
+.escola-título {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+    padding-top: 60px;
+}
+.escola-paragrafo {
+   text-align: center;
+    color: #FFFFFF;
+    font-size: 30px; 
+    padding-top: 15px;
+}
+.escola-texto {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-top: 80px;
 }

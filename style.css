@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .cabeçalho {
     background-color: #1C315E;
     display: flex;
@@ -21,7 +25,7 @@ color: #FFFFFF;
 }
 .escola {
     background-color: #227C70;
-    width: 1300px;
+    width: 1350px;
     height: 300px;
 }
 .escola-título {
@@ -41,4 +45,14 @@ color: #FFFFFF;
     color: #FFFFFF;
     font-size: 30px;
     padding-top: 80px;
+}
+.galeria {
+background-color: #0B695C;
+color: #FFFFFF;
+display: flex;
+justify-content: space-around;
+}
+.galeria-foto {
+    width: 473px;
+    border-radius: 33px;
 }
